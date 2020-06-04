@@ -24,6 +24,7 @@ const Home: React.FC = () => {
     <Container>
       <SearchProfile>
         <div>
+          <h1>QuestionApp</h1>
           <strong>SEARCH PROFILE AND MAKE A QUESTION ...</strong>
           <div>
             <MdSearch size={32} color="#344055" />

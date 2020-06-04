@@ -22,9 +22,18 @@ export const SearchProfile = styled.div`
   justify-content: center;
   align-items: center;
   border-right: solid 2px #344055;
+  padding: 2vh;
 
   > div {
     text-align: end;
+
+    > h1 {
+      margin-bottom: 5vh;
+      font-style: italic;
+      font-size: 2.5rem;
+      color: #344055;
+    }
+
     > div {
       height: 32px;
       max-width: 270px;
@@ -58,7 +67,7 @@ export const SignProfile = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding: 2vh;
   > div {
     text-align: end;
     > div {
