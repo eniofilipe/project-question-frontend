@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   > button {

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 2vh;
   height: 100%;
   > button {
     border: none;

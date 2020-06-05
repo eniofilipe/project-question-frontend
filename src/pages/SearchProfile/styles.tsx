@@ -3,6 +3,7 @@ import PerfectScrollbar from "react-perfect-scrollbar";
 import "react-perfect-scrollbar/dist/css/styles.css";
 
 export const Container = styled.div`
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   > button {
